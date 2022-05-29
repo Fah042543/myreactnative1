@@ -1,4 +1,5 @@
-const url_endpoint = "http://localhost:8080/laravel8/public/api/book";
+// const url_endpoint = "http://localhost/laravel8/public/api/book";
+const url_endpoint = "http://192.168.1.59/laravel8/public/api/book";
 
 const getItems = async () => {
   try {
@@ -65,4 +66,4 @@ const destroyItem = async (item) => {
   }
 };
 
-export default { getItems, getItemDetail , storeItem , updateItem , destroyItem};
+export default { getItems, getItemDetail, storeItem, updateItem, destroyItem };
